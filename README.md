@@ -14,8 +14,8 @@ See the [install instructions][install].
 
 ## Usage
 
-    <link rel="stylesheet" href="packages/bootstrap_for_pub/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="packages/bootstrap_for_pub/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="packages/bootstrap_for_pub/css/bootstrap.min.css">
+    <link rel="stylesheet" href="packages/bootstrap_for_pub/css/bootstrap-theme.min.css">
 
 ## Learn more
 
