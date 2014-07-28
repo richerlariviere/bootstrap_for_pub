@@ -23,5 +23,5 @@ Visit the official [Bootstrap homepage][bs] for docs and more.
 
 See LICENSE.
 
-[install]: http://pub.dartlang.org/packages/bootstrap_for_pub
+[install]: http://pub.dartlang.org/packages/bootstrap_for_pub#installing
 [bs]: http://getbootstrap.com/
