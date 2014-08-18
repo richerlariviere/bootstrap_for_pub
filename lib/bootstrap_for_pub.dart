@@ -34,10 +34,12 @@ class BootstrapUrlTransformer extends Transformer {
       return transform.primaryInput.readAsString().then((html) =>
           transform.addOutput(new Asset.fromString(id, _rewriteHtml(html))));
     }
+    // Let barback know there is nothing more to do when not in release mode
+    return null;
   }
 
   String _rewriteHtml(String html) {
-    var doc = parse(html);
+    Document doc = parse(html);
 
     doc.querySelectorAll('script[src^="$_BASE_URL"]').forEach((tag) {
       var src = tag.attributes['src'];
