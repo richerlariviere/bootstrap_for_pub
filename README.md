@@ -5,8 +5,7 @@ Just a pub package of Bootstrap,
 for developing responsive, mobile first
 projects on the web."
 
-Nothing Dart specific in here, just
-the files bundled up for easier installation.
+Currently contains Bootstrap 3.2.
 
 ## Installation
 
