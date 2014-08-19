@@ -29,7 +29,7 @@ Note that the versions in the snippets above are the non-minified version. The t
 in this package will automatically rewrite the URI to point to the minified versions when pub is 
 invoked in release mode.
 
-To activate the transformer, update your `pubsepc.yaml`
+To activate the transformer, update your `pubspec.yaml`
 
 ```json
 transformers:
