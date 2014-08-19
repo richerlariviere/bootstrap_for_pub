@@ -1,7 +1,7 @@
 name: bootstrap_for_pub
 description: Bootstrap's files, in a pub package. Contains
              Bootstrap 3.2.
-             Included: a transformer to swap the CSS for a CDN version.
+             Included is a transformer to swap the CSS for a CDN version.
 authors:
 - Bootstrap core team
 - Victor Berchet <victor@suumit.com>
