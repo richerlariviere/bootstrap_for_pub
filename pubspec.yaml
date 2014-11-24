@@ -1,4 +1,4 @@
-name: bootstrap_for_pub
+name: bootstrap
 description: Bootstrap's files, in a pub package. Contains
              Bootstrap 3.2.
              Included is a transformer to swap the CSS for a CDN version.
