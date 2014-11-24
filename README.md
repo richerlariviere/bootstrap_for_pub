@@ -18,31 +18,33 @@ dependency to your application:
 
 ```html
     <!-- include the stylesheets -->
-    <link rel="stylesheet" href="packages/bootstrap_for_pub/css/bootstrap.css">
-    <link rel="stylesheet" href="packages/bootstrap_for_pub/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="packages/bootstrap/css/bootstrap-theme.css">
     
     <!-- include the javascript -->
-    <script src="packages/bootstrap_for_pub/js/bootstrap.js"></script>
+    <script src="packages/bootstrap/js/bootstrap.js"></script>
 ```
 
-Note that the versions in the snippets above are the non-minified version. The transformer available
-in this package will automatically rewrite the URI to point to the minified versions when pub is 
-invoked in release mode.
+Note that the versions in the snippets above are the non-minified version.
+The transformer available
+in this package will automatically rewrite the URI to point to the minified
+versions when pub is invoked in release mode.
 
 To activate the transformer, update your `pubspec.yaml`
 
 ```json
 transformers:
-- bootstrap_for_pub:
+- bootstrap:
     url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
     version: 3.2.0    
 ```
 
 The transformer takes up to two optional parameters:
-- `url`: when specified the local base url (`packages/bootstrap_for_pub/`) will be replaced by the
-  given url. This is useful to automatically switch to using a CDN for your production environment.
-- `version`: when specified, the sub-string "{{version}}" in the `url` parameter will be replaced 
-   with its value.
+- `url`: when specified the local base url (`packages/bootstrap/`) will be
+   replaced by the given url. This is useful to automatically switch to
+   using a CDN for your production environment.
+- `version`: when specified, the sub-string "{{version}}" in the `url`
+   parameter will be replaced with its value.
 
 ## Learn more
 
@@ -50,5 +52,5 @@ Visit the official [Bootstrap homepage][bs] for docs and more.
 
 See LICENSE.
 
-[install]: http://pub.dartlang.org/packages/bootstrap_for_pub#installing
+[install]: http://pub.dartlang.org/packages/bootstrap#installing
 [bs]: http://getbootstrap.com/

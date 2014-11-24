@@ -7,7 +7,7 @@ authors:
 - Victor Berchet <victor@suumit.com>
 - Seth Ladd <sethladd@gmail.com>
 version: 3.3.0+2
-homepage: https://github.com/sethladd/bootstrap_for_pub
+homepage: https://github.com/sethladd/bootstrap
 dependencies:
   barback: ">=0.14.1+3 <0.16.0"
   html5lib: ">=0.11.0+1 <0.13.0"
