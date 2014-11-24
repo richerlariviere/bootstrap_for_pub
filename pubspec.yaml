@@ -6,7 +6,7 @@ authors:
 - Bootstrap core team
 - Victor Berchet <victor@suumit.com>
 - Seth Ladd <sethladd@gmail.com>
-version: 3.3.0+2
+version: 3.3.0+4
 homepage: https://github.com/sethladd/bootstrap
 dependencies:
   barback: ">=0.14.1+3 <0.16.0"

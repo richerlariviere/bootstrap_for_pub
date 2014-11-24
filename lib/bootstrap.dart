@@ -1,4 +1,9 @@
-library bootstrap_for_pub;
+// Copyright the project authors, 2014.
+// Distributed under the MIT License.
+// See accompanying file LICENSE or copy at
+// http://opensource.org/licenses/MIT
+
+library bootstrap;
 
 import 'package:html5lib/parser.dart' show parse;
 import 'package:html5lib/dom.dart' show Document;
@@ -8,7 +13,7 @@ import 'dart:async' show Future;
 
 
 class BootstrapUrlTransformer extends Transformer {
-  static const String _BASE_URL = 'packages/bootstrap_for_pub/';
+  static const String _BASE_URL = 'packages/bootstrap/';
 
   bool releaseMode;
   String bootstrapUrl;
