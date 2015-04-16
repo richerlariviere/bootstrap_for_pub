@@ -1,0 +1,11 @@
+name: bootstrap example
+description:
+authors:
+version: 0.0.1
+dependencies:
+  browser: any
+  less_dart: any
+  bootstrap:
+    path: ../../
+transformers:
+  - less_dart
