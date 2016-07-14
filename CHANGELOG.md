@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.3.0+6
+
+* Update package to bootstrap 3.3.6 and jquery 2.2.4 
+
 ## 3.3.0+4
 
 * Change name from `bootstrap_for_pub` to `bootstrap`

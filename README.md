@@ -5,7 +5,7 @@ Just a pub package of Bootstrap,
 for developing responsive, mobile first
 projects on the web."
 
-Currently contains Bootstrap 3.3.4.
+Currently contains Bootstrap 3.3.6.
 
 ## Installation
 
@@ -22,6 +22,7 @@ dependency to your application:
     <link rel="stylesheet" href="packages/bootstrap/css/bootstrap-theme.css">
     
     <!-- include the javascript -->
+    <script src="packages/bootstrap/jquery/jquery.js"></script>
     <script src="packages/bootstrap/js/bootstrap.js"></script>
 ```
 
@@ -32,11 +33,11 @@ versions when pub is invoked in release mode.
 
 To activate the transformer, update your `pubspec.yaml`
 
-```json
+```yaml
 transformers:
 - bootstrap:
     url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
-    version: 3.3.4    
+    version: 3.3.6    
 ```
 
 The transformer takes up to two optional parameters:
