@@ -5,7 +5,7 @@ Just a pub package of Bootstrap,
 for developing responsive, mobile first
 projects on the web."
 
-Currently contains Bootstrap 3.3.6.
+Currently contains Bootstrap 3.3.7.
 
 ## Installation
 
@@ -37,7 +37,7 @@ To activate the transformer, update your `pubspec.yaml`
 transformers:
 - bootstrap:
     url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
-    version: 3.3.6    
+    version: 3.3.7    
 ```
 
 The transformer takes up to two optional parameters:
