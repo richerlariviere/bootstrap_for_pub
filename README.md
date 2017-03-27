@@ -5,7 +5,7 @@ Just a pub package of Bootstrap,
 for developing responsive, mobile first
 projects on the web."
 
-Currently contains Bootstrap 3.3.7.
+Currently contains Bootstrap 4.0.0-alpha.6
 
 ## Installation
 
@@ -19,7 +19,6 @@ dependency to your application:
 ```html
     <!-- include the stylesheets -->
     <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="packages/bootstrap/css/bootstrap-theme.css">
     
     <!-- include the javascript -->
     <script src="packages/bootstrap/jquery/jquery.js"></script>
@@ -37,7 +36,7 @@ To activate the transformer, update your `pubspec.yaml`
 transformers:
 - bootstrap:
     url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
-    version: 3.3.7    
+    version: 4.0.0-alpha.6
 ```
 
 The transformer takes up to two optional parameters:
@@ -53,5 +52,5 @@ Visit the official [Bootstrap homepage][bs] for docs and more.
 
 See LICENSE.
 
-[install]: http://pub.dartlang.org/packages/bootstrap#installing
-[bs]: http://getbootstrap.com/
+[install]: https://pub.dartlang.org/packages/bootstrap#installing
+[bs]: https://v4-alpha.getbootstrap.com/
