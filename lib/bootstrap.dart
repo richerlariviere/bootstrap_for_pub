@@ -5,8 +5,8 @@
 
 library bootstrap;
 
-import 'package:html5lib/parser.dart' show parse;
-import 'package:html5lib/dom.dart' show Document;
+import 'package:html/parser.dart' show parse;
+import 'package:html/dom.dart' show Document;
 import 'package:barback/barback.dart'
   show Asset, Transform, Transformer, BarbackSettings, BarbackMode;
 import 'dart:async' show Future;
