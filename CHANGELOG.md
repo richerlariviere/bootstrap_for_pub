@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.0-beta.3
+
+* Update package to bootstrap 4.0.0-beta.3
+
 ## 4.0.0-alpha.6
 
 * Update package to bootstrap 4.0.0-alpha.6 
