@@ -7,7 +7,7 @@ Just a pub package of Bootstrap,
 for developing responsive, mobile first
 projects on the web."
 
-Currently contains Bootstrap 4.0.0-alpha.6
+Currently contains Bootstrap 4.0.0
 
 ## Installation
 
@@ -20,11 +20,11 @@ dependency to your application:
 
 ```html
     <!-- include the stylesheets -->
-    <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.min.css">
     
     <!-- include the javascript -->
-    <script src="packages/bootstrap/jquery/jquery.js"></script>
-    <script src="packages/bootstrap/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 ```
 
 Note that the versions in the snippets above are the non-minified version.
@@ -38,7 +38,7 @@ To activate the transformer, update your `pubspec.yaml`
 transformers:
 - bootstrap:
     url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
-    version: 4.0.0-alpha.6
+    version: 4.0.0
 ```
 
 The transformer takes up to two optional parameters:
@@ -55,4 +55,4 @@ Visit the official [Bootstrap homepage][bs] for docs and more.
 See LICENSE.
 
 [install]: https://pub.dartlang.org/packages/bootstrap#installing
-[bs]: https://v4-alpha.getbootstrap.com/
+[bs]: https://getbootstrap.com
