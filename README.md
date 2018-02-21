@@ -1,6 +1,7 @@
 # Bootstrap for Pub
 
 [![Build Status](https://travis-ci.org/richerlariviere/bootstrap_for_pub.svg?branch=master)](https://travis-ci.org/richerlariviere/bootstrap_for_pub)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/bootstrap_for_pub)
 
 Just a pub package of Bootstrap,
 "The most popular front-end framework
